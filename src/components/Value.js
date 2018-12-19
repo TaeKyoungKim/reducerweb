@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-const propTypes={
-    number: PropTypes.number.isRequired,
-};
 
 
 
@@ -23,6 +20,6 @@ export default class Value extends Component {
 }
 
 Value.propTypes = {
-    number: PropTypes.number.isRequired,
+    number: PropTypes.number
 };
 
